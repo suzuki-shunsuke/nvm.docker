@@ -2,6 +2,14 @@
 
 Docker Hub Repository: https://hub.docker.com/r/suzukishunsuke/nvm/
 
+## 0.1.1
+
+Create a working directory `/root/work` .
+
+```
+$ docker run -ti --name nvm --v $PWD:/root/work suzukishunsuke/nvm:0.1.1 bash
+```
+
 ## 0.1.0
 
 * debian 8.4
